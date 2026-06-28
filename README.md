@@ -3,6 +3,8 @@
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4?logo=terraform)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazon-aws)](https://aws.amazon.com/)
 [![Laravel](https://img.shields.io/badge/Framework-Laravel-FF2D20?logo=laravel)](https://laravel.com/)
+![Status](https://img.shields.io/badge/Status-Week%202%20In%20Progress-yellow)
+![Progress](https://img.shields.io/badge/Progress-30%25-blue)
 
 > Enterprise-level AWS infrastructure deployment using Terraform, implementing best practices for high availability, security, and scalability.
 
@@ -47,10 +49,10 @@ Deploying a production-ready Laravel application on AWS using 100% Infrastructur
 - [x] Internet Gateway for public connectivity
 - [x] Public route tables with IGW routing
 - [x] Complete network isolation architecture
+- [x] Security Groups (ALB, EC2, RDS) with defense-in-depth architecture
+- [x] Three-tier security architecture (Public → App → Database)
 
 ### In Progress 🚧
-- [ ] NAT Gateway for private subnet internet access
-- [ ] Security Groups (ALB, EC2, RDS)
 - [ ] RDS MariaDB Multi-AZ deployment
 - [ ] Application Load Balancer with SSL
 - [ ] Auto Scaling Group (2-6 instances)
