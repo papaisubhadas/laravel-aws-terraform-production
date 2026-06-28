@@ -1,0 +1,57 @@
+# Terraform State Files (NEVER commit these!)
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfstate.backup
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+
+# Terraform Variable Files (may contain secrets)
+terraform/*.tfvars
+terraform/*.tfvars.json
+terraform/*.auto.tfvars
+terraform/*.auto.tfvars.json
+
+# Sensitive Files
+**/*.pem
+**/*.key
+**/secrets/
+**/*.env
+**/.env.*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Backup Files
+*.bak
+*.backup
