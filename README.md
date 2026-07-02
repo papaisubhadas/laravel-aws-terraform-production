@@ -51,9 +51,9 @@ Deploying a production-ready Laravel application on AWS using 100% Infrastructur
 - [x] Complete network isolation architecture
 - [x] Security Groups (ALB, EC2, RDS) with defense-in-depth architecture
 - [x] Three-tier security architecture (Public → App → Database)
+- [x] RDS MariaDB Multi-AZ deployment
 
 ### In Progress 🚧
-- [ ] RDS MariaDB Multi-AZ deployment
 - [ ] Application Load Balancer with SSL
 - [ ] Auto Scaling Group (2-6 instances)
 - [ ] Laravel application deployment
