@@ -52,9 +52,12 @@ Deploying a production-ready Laravel application on AWS using 100% Infrastructur
 - [x] Security Groups (ALB, EC2, RDS) with defense-in-depth architecture
 - [x] Three-tier security architecture (Public → App → Database)
 - [x] RDS MariaDB Multi-AZ deployment
+- [x] Application Load Balancer (internet-facing)
+- [x] Target Group with health checks configured
+- [x] HTTP Listener (Port 80)
 
 ### In Progress 🚧
-- [ ] Application Load Balancer with SSL
+- [ ] EC2 Launch Template
 - [ ] Auto Scaling Group (2-6 instances)
 - [ ] Laravel application deployment
 
