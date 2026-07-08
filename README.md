@@ -55,9 +55,12 @@ Deploying a production-ready Laravel application on AWS using 100% Infrastructur
 - [x] Application Load Balancer (internet-facing)
 - [x] Target Group with health checks configured
 - [x] HTTP Listener (Port 80)
+ - [x] IAM Role for EC2 instances
+ - [x] EC2 Launch Template with Ubuntu 24.04 LTS
+ - [x] User data script (Nginx, PHP 8.3, automated setup)
+#- [x] IMDSv2 security configuration
 
 ### In Progress 🚧
-- [ ] EC2 Launch Template
 - [ ] Auto Scaling Group (2-6 instances)
 - [ ] Laravel application deployment
 
